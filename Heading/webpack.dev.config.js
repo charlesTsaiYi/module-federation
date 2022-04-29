@@ -37,9 +37,9 @@ module.exports = {
     new ModuleFederationPlugin({
       name: "HeadingApp",
       filename: 'remoteEntry.js',
-      remotes: {
-        HelloCardApp: 'HelloCardApp@http://localhost:9005/remoteEntry.js',
-      },
+      // remotes: {
+      //   HelloCardApp: 'HelloCardApp@http://localhost:9005/remoteEntry.js',
+      // },
       exposes: {
         './Heading': './src/component/Heading/Heading.js'
       }

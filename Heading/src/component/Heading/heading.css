@@ -1,0 +1,14 @@
+h1 {
+  color: pink;
+  margin-top: 200px;
+}
+
+body {
+  background-color: azure;
+}
+
+div {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}

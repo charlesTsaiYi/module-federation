@@ -1,0 +1,20 @@
+.card {
+  width: 400px;
+  height: 300px;
+  background: darkorchid;
+  color: orange;
+  font-family: system-ui;
+  border-radius: 20px;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  clip-path: circle(10% at 10% 30%);
+  transition: clip-path 0.5s;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+.card:hover {
+  clip-path: circle(100%);
+}
